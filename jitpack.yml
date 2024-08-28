@@ -1,3 +1,0 @@
-install:
-  - FILE="-Dfile=closed_source_arr-1.0.aar"
-  - mvn install:install-file $FILE -DgroupId=com.yubanjin -DartifactId=closed_yubanjin_arr  -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
